@@ -1,0 +1,16 @@
+.pokerchips{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px 40px 15px;
+}
+.Title{
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+.text p{
+    padding:0 30px;
+    font-size:1.3em;
+    text-align: center;
+    font-weight: 500;
+}
