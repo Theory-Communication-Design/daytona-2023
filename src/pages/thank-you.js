@@ -26,7 +26,7 @@ We appreciate you taking the time to complete our survey. Show this page to a re
             alt='playingcards'
           />    
 
-    <a className="btn" id={styles.PRDBTN}>
+    <a href="/poker-run" className="btn" id={styles.PRDBTN}>
         POKER RUN DETAILS
     </a>
     <br/>

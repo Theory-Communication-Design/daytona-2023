@@ -167,8 +167,8 @@ body {
     flex-direction: column;
 }
 .wrapper{
-    border:solid 2px black;
     max-width: 500px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top:25px;
@@ -178,7 +178,6 @@ body {
 .btn{
   display: block;
   width: fit-content;
-  background-color: black;
   color:white;
   font-size: 2em;
   font-weight: bold;
@@ -187,4 +186,5 @@ body {
   text-align: center;
   border-radius: 8px;
   margin: 100px auto 50px auto;
+  background-color: black;
 }

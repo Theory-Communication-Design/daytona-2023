@@ -13,7 +13,7 @@
 .hr{
     width:90px;
     margin:30px auto;
-    color:black;
+    border:black solid 1px;
 }
 .mtext{
     padding:0 30px;
@@ -58,4 +58,28 @@
     border-radius: 100%;
     background-color: white;
     color:black;
+}
+.img2{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.stores span{
+    font-weight: bold;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.stores a{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: underline;
+}
+.stores a:hover{
+    color:rgba(0, 0, 0,0.5)
 }

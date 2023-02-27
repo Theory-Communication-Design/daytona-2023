@@ -28,7 +28,7 @@ export default function Home() {
               </p>
           </span>
           
-          <a className="btn">
+          <a href="/survey" className="btn">
             Lets go!
           </a>
     </>
