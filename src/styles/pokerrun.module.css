@@ -2,7 +2,14 @@
     font-size: 4em;
     font-weight: bold;
     text-align: center;
+    line-height: 90%;
+    margin-bottom: 26px;
 }
+@media only screen and (max-width: 478px) {
+    .title {
+      font-size:3em;
+    }
+  }
 .subtitle{
     font-size: 2em;
     font-weight: bold;
@@ -31,6 +38,7 @@
     background-color: black;
     color:white;
     padding: 30px;
+    margin-top: 26px;
 }
 .box h1{
     font-size: 2rem;
@@ -47,21 +55,24 @@
     display: flex;
     gap:10px;
     margin-bottom: 15px;
+    align-items: center;
 }
 .cardsection h2{
     display: block;
     height: 30px;
     width: 30px;
+    padding:10px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
     border-radius: 100%;
     background-color: white;
     color:black;
+    line-height: 10px;
 }
 .img2{
     margin-top:50px;
-    margin-bottom: 50px;
+    margin-bottom: 26px;
 }
 .stores span{
     font-weight: bold;

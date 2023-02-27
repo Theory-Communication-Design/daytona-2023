@@ -2,6 +2,7 @@ import styles from "@/styles/thank-you.module.css";
 import Image from "next/image";
 import img1 from "public/img/playingcards.png";
 import img2 from "public/img/DBW-Bottles.png";
+import Link from "next/link";
 
 export default function Thankyou() {
   return (
@@ -26,9 +27,9 @@ We appreciate you taking the time to complete our survey. Show this page to a re
             alt='playingcards'
           />    
 
-    <a href="/poker-run" className="btn" id={styles.PRDBTN}>
+    <Link href="/poker-run" className="btn" id={styles.PRDBTN}>
         POKER RUN DETAILS
-    </a>
+    </Link>
     <br/>
     <br/>
 <h1 className={styles.title}>
@@ -45,7 +46,7 @@ We appreciate you taking the time to complete our survey. Show this page to a re
 <p className={styles.ptext}>
 Advance your engine protection with Mobil 1™ advanced synthetic motorcycle oil on sale now. Shop now at your local Advance Auto Parts store, or online at shop.advanceautoparts.com.
 </p>
-<a className="btn" id={styles.SNBTN} >
+<a className="btn" id={styles.SNBTN} target="_blank" rel="noreferrer" href="https://goo.gl/maps/AH8x42BdN3DDYKAn9">
         Shop now
     </a>
     </>
