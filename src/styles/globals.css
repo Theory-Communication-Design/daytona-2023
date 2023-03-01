@@ -159,6 +159,18 @@ body {
 .el-radio__inner{
   @apply bg-transparent border-4 border-black !important;
 }
+.cog-field--102{
+  padding:5px !important;
+  padding-left: 15px !important;
+  background-color: white !important;
+  border-radius: 5px !important;
+  border:solid 2px rgb(168, 168, 168) !important;
+}
+.cog-field--102 .cog-label{
+  font-size: 1em !important;
+  color:rgb(75, 85, 99) !important;
+}
+
 .main{
     width:100vw;
     min-height: 100vh;
