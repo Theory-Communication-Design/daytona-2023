@@ -9,6 +9,7 @@ export default function foot(){
                 src={lockup}
                 height={300}
                 width={300}
+                alt='lockup'
             />
         </div>
     )

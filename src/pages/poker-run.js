@@ -125,7 +125,7 @@ Port Orange, FL 32129
           />
 
           <p className={styles.disclaimer}>
-            *$500 prize will be awarded in a Teddy Morse's Destination Daytona Harley Davidson gift card. No cash value. Winner must visit all five Advance Auto Parts stores and return to this location to be entered to win. Winner must be present in person to redeem. Prizes not redeemed within 48 hours of the winner being notified will be forfeited and an alternate winner will be selected from all remaining eligible entries.
+            *$500 prize will be awarded in a Teddy Morse{`'`}s Destination Daytona Harley Davidson gift card. No cash value. Winner must visit all five Advance Auto Parts stores and return to this location to be entered to win. Winner must be present in person to redeem. Prizes not redeemed within 48 hours of the winner being notified will be forfeited and an alternate winner will be selected from all remaining eligible entries.
           </p>
     </>
   );
