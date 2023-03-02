@@ -32,7 +32,29 @@
 #PRDBTN{
     margin-top:80px;
     margin-bottom: 40px;
+    height: fit-content;
+    width: fit-content;
+    padding:10px 35px;
 }
 #SNBTN{
-    margin-top:50px;
+    width: 50%;
+    height: 3.5em;
+    display: block;
+    padding: 0;
+}
+#SNBTN div{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:30px;
+}
+#SUFSP{
+    height: fit-content;
+    width: 50%;
+}
+.btn_lockup{
+    display: flex;
+    gap:10px;
+    margin-top:-40px
 }

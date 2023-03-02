@@ -46,9 +46,20 @@ We appreciate you taking the time to complete our survey. Show this page to a re
 <p className={styles.ptext}>
 Advance your engine protection with Mobil 1™ advanced synthetic motorcycle oil on sale now. Shop now at your local Advance Auto Parts store, or online at shop.advanceautoparts.com.
 </p>
-<a className="btn" id={styles.SNBTN} target="_blank" rel="noreferrer" href="winwithmobil1.com/2023-DBW-ReflexShopNow">
-        Shop now
+<div className={styles.btn_lockup}>
+    <a className="btn" id={styles.SNBTN} target="_blank" rel="noreferrer" href="https://winwithmobil1.com/2023-DBW-ReflexShopNow">
+        <div>
+            Shop now
+        </div>
     </a>
+    <a className="btn" id={styles.SUFSP} href="https://shop.advanceautoparts.com/o/speedperks-loyalty" target="_blank" rel="noreferrer">
+        <div>
+            Sign up for SpeedPerks
+        </div>
+    </a>
+
+</div>
+
     </>
   );
 }
