@@ -7,13 +7,11 @@ export default function Document() {
       <Head>
         {/* Global Site Tag - Google Analytics */}
 
-        <Script
-          strategy="afterInteractive"
+        <script
+          async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
         />
-        <Script
-          strategy="afterInteractive"
-          id="googleAnalytics"
+        <script
           dangerouslySetInnerHTML={{
             __html: `
             window.dataLayer = window.dataLayer || [];
